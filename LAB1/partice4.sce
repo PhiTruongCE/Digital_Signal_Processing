@@ -1,0 +1,11 @@
+clc;
+clf;
+clear all;
+l=10;
+a=1.5;
+n=-l:l;
+x=a^n;
+plot2d3(x);
+title('Exponential Signal');
+xlabel('n');
+ylabel('x');
